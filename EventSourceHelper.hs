@@ -3,7 +3,7 @@
 
 module EventSourceHelper
   ( Fold
-  , QueryT, Query
+  , QueryT, Query, CommandT, TransactionT
   , fold, fold1
   , trans, query
   , runQ, runC, runTX
